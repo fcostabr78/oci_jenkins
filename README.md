@@ -102,7 +102,7 @@ http://ip_atribuido_a_vm:8080
 
 10. Pule as configurações de plugin e troque a senha no perfil do admin
 
-11. Em Global Tool Configuration configure o Java Path
+sudo yum install git -y
 
 ```
 $ echo $JAVA_HOME
@@ -117,6 +117,7 @@ $ echo $JAVA_HOME
 </table>
 
 
+12. Na console do Jenkins, em Plugins Disponíveis (http://IP_OFERECIDO_CONSOLE_OCI:8080/pluginManager/available, busque por GitHub e instante sem reinciar.
 
 
 
