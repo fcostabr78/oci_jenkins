@@ -169,5 +169,15 @@ export PATH
 
 ```
 
+3. Teste a instalação
 
+
+<table>
+    <tbody>
+        <tr>
+        <th><img align="left" width="600" src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idsvh8rxij5e/b/imagens_git/o/Captura%20de%20tela%20de%202021-01-30%2018-05-32.png"/></th>
+        </tr>
+    </tbody>
+</table>
+<br>
   
