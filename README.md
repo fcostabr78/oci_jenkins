@@ -102,26 +102,29 @@ http://ip_atribuido_a_vm:8080
 
 10. Pule as configurações de plugin e troque a senha no perfil do admin
 
-sudo yum install git -y
 
-```
-$ echo $JAVA_HOME
-```
-
-<table>
-    <tbody>
-        <tr>
-        <th><img align="left" width="600" src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idsvh8rxij5e/b/imagens_git/o/Captura%20de%20tela%20de%202021-01-30%2015-41-52.png"/></th>
-        </tr>
-    </tbody>
-</table>
-
-12. Na console do Jenkins, em Plugins Disponíveis (http://IP_OFERECIDO_CONSOLE_OCI:8080/pluginManager/available, busque por GitHub e instante sem reinciar.
+11. Na console do Jenkins, em Plugins Disponíveis (http://IP_OFERECIDO_CONSOLE_OCI:8080/pluginManager/available, busque por GitHub e instante sem reinciar.
 
 <table>
     <tbody>
         <tr>
         <th><img align="left" width="600" src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idsvh8rxij5e/b/imagens_git/o/Captura%20de%20tela%20de%202021-01-30%2016-32-01.png"/></th>
+        </tr>
+    </tbody>
+</table>
+
+
+12. Configure o path do JDK e do GIT
+
+```
+$ echo $JAVA_HOME #java_home
+$ eecho /usr/bin/git #path ao git
+```
+
+<table>
+    <tbody>
+        <tr>
+        <th><img align="left" width="600" src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idsvh8rxij5e/b/imagens_git/o/Captura%20de%20tela%20de%202021-01-30%2017-17-39.png"/></th>
         </tr>
     </tbody>
 </table>
