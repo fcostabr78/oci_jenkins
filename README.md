@@ -60,7 +60,13 @@ $ echo $PATH
 $ vi ~/.bash_profile 
 ```
 
-5. Instale o Jenkins
+5. Instale o Git
+
+```
+$ sudo yum install git -y
+```
+
+6. Instale o Jenkins
 
 ```
 $ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
@@ -68,19 +74,19 @@ $ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 $ sudo yum -y install jenkins
 ```
 
-6. Inicialize o Jenkins
+7. Inicialize o Jenkins
 
 ```
 $ sudo service jenkins star
 $ sudo chkconfig jenkins on
 ```
 
-7. Copie a senha
+8. Copie a senha
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-8. Abra o navegador no IP oferecido no provisionado da VM no Oracle Cloud (passo 1), porta 8080
+9. Abra o navegador no IP oferecido no provisionado da VM no Oracle Cloud (passo 1), porta 8080
 ```
 http://ip_atribuido_a_vm:8080
 ```
@@ -94,9 +100,9 @@ http://ip_atribuido_a_vm:8080
 </table>
 
 
-9. Pule as configurações de plugin e troque a senha no perfil do admin
+10. Pule as configurações de plugin e troque a senha no perfil do admin
 
-10. Em Global Tool Configuration configure o Java Path
+11. Em Global Tool Configuration configure o Java Path
 
 ```
 $ echo $JAVA_HOME
