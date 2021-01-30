@@ -83,7 +83,7 @@ $ sudo chkconfig jenkins on
 
 8. Copie a senha
 ```
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 9. Abra o navegador no IP oferecido no provisionado da VM no Oracle Cloud (passo 1), porta 8080
@@ -118,7 +118,7 @@ http://ip_atribuido_a_vm:8080
 
 ```
 $ echo $JAVA_HOME #java_home
-$ eecho /usr/bin/git #path ao git
+$ echo /usr/bin/git #path ao git
 ```
 
 <table>
