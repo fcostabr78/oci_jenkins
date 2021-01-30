@@ -116,9 +116,15 @@ $ echo $JAVA_HOME
     </tbody>
 </table>
 
-
 12. Na console do Jenkins, em Plugins Disponíveis (http://IP_OFERECIDO_CONSOLE_OCI:8080/pluginManager/available, busque por GitHub e instante sem reinciar.
 
+<table>
+    <tbody>
+        <tr>
+        <th><img align="left" width="600" src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idsvh8rxij5e/b/imagens_git/o/Captura%20de%20tela%20de%202021-01-30%2016-32-01.png"/></th>
+        </tr>
+    </tbody>
+</table>
 
 
 
