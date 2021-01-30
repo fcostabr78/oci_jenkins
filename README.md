@@ -143,7 +143,31 @@ $ sudo wget https://www-us.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-m
 $ sudo tar -xvzf apache-maven-3.6.3-bin.tar.gz
 ```
 
+2. Edite o .bash_profile 
 
+```
+$ vi ~/.bash_profile
+```
+
+2.1 e adicione o path ao maven (M3_HOME e M3). Alterar a variável PATH como abaixo
+
+```
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+M3_HOME=/opt/maven/apache-maven-3.6.3
+M3=$M3_HOME/bin
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/opc/.local/bin:/home/opc/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64-debug:$M3_HOME:$M3
+export PATH
+
+```
 
 
   
