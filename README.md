@@ -17,7 +17,8 @@
 
 
 
-## Passo-a-Passo
+## Passo-a-Passo para Instalação do Java, Git e Jenkins
+
 2. Acessar a VM via SSH e instalar o Java
 
 ```
@@ -128,10 +129,19 @@ $ echo /usr/bin/git #path ao git
         </tr>
     </tbody>
 </table>
+<br>
 
 
+## Passo-a-Passo para Instalação do Maven
 
+1. Faça o download da versão 3.6 e descompacte
 
+```
+$ mkdir /opt/maven
+$ cd /opt/maven
+$ sudo wget https://www-us.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+$ sudo tar -xvzf apache-maven-3.6.3-bin.tar.gz
+```
 
 
 
