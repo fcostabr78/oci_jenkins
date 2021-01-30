@@ -114,7 +114,7 @@ http://ip_atribuido_a_vm:8080
 </table>
 
 
-12. Configure o path do JDK e do GIT
+12. Configure o path do JDK e do GIT em Global Tool Configuration - http://IP_OFERECIDO_CONSOLE_OCI:8080/configureTools/
 
 ```
 $ echo $JAVA_HOME #java_home
