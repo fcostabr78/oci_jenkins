@@ -181,3 +181,4 @@ export PATH
 </table>
 <br>
   
+4. Na console do Jenkins, em Plugins Disponíveis (http://IP_OFERECIDO_CONSOLE_OCI:8080/pluginManager/available, busque por Maven Integration e Invoker e instale sem reinciar.
