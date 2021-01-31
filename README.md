@@ -184,3 +184,4 @@ export PATH
 4. Na console do Jenkins, em Plugins Disponíveis (http://IP_OFERECIDO_CONSOLE_OCI:8080/pluginManager/available, busque por Maven Integration e Maven Invoker e instale sem reiniciar.<br>
 
 5. Em Global Tool Configuration configure o path (/opt/maven/apache-maven-3.6.3) ao Maven
+PS: Caso esse path não esteja correto, na compilação de uma task de tipo maven, o que ocorrerá é um erro informando o seguinte: Maven doesn't have a 'lib' subdirectory in Jenkins
